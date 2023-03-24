@@ -103,7 +103,11 @@ const CreatePost = () => {
           <FormField 
             labelName="Prompt:"
             type="text"
+<<<<<<< HEAD
             name="prompt"
+=======
+            name="Prompt"
+>>>>>>> 74080426102dbef4131613bb6436694368b30736
             placeholder="Um robo de brinquedo sentado em um muro amarelo"
             value={form.prompt}
             handleChange={handleChange}
@@ -144,7 +148,11 @@ const CreatePost = () => {
             className="text-white bg-green-700 font-medium rounded-md 
             text-sm w-full sm:w-auto px-5 py-2.5 text-center"
           >
+<<<<<<< HEAD
             {generatingImg ? "Gerando..." : "Gerar nova imagem"}
+=======
+            {generatingImg ? "Gerando..." : "Gerado"}
+>>>>>>> 74080426102dbef4131613bb6436694368b30736
           </button>
         </div>
         <div className="mt-10">
